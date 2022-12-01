@@ -1,0 +1,24 @@
+<web-app>
+   <!-- General description of your Web application -->
+   <display-name>
+      CNT 4714 Spring 2021 JSP-Servlet-App
+   </display-name>
+   <description>
+      Devin Vanzant's multi-tiered database system.
+   </description>
+<!-- Servlet definitions -->
+   <servlet>
+      <servlet-name>p4app</servlet-name>
+      <description>
+         Project 4 for CNT4714, Spring 2021
+      </description>
+      <servlet-class>
+         WelcomeServletSession
+      </servlet-class>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>p4app</servlet-name>
+      <url-pattern>/</url-pattern>
+   </servlet-mapping>
+</web-app>
+
